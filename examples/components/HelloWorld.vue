@@ -3,7 +3,6 @@
 </template>
 
 <script lang="ts" setup>
-import MyButton from "~/myButton/index.vue"
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

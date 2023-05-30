@@ -1,5 +1,5 @@
 <template>
-  <el-button type="primary">按钮</el-button>
+  <el-button type="primary">这是一个按钮</el-button>
 </template>
 
 <script>
