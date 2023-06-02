@@ -42,7 +42,7 @@ export default [
         exclude: 'node_modules/**', // 只转译我们的源代码
         runtimeHelpers: true
       }),
-      terser(),
+      terser(), // 压缩
       nodeResolve(),
       typescript({
         tsconfigOverride: {
@@ -55,7 +55,8 @@ export default [
       })
     ],
     external(id) {
-      return /^vue/.test(id) || deps.some(k => new RegExp('^' + k).test(id))
+      console.log(id)
+      return deps.some(k => new RegExp('^' + k).test(id))
     }
   }
 ]

@@ -5,4 +5,3 @@ declare module '*.vue' {
 }
 
 declare module 'custom-ui-plus';
-declare module '*.js';
