@@ -1,6 +1,6 @@
 <template>
   <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  <my-button></my-button>
+  <MyButton :textType="4"></MyButton>
 </template>
 
 <script lang="ts" setup>

@@ -1,8 +1,9 @@
 {
   "name": "custom-ui-plus",
-  "version": "0.1.2",
+  "version": "0.1.8",
   "private": false,
   "module": "lib/index.esm.min.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -13,7 +14,7 @@
   "dependencies": {
     "@rollup/plugin-node-resolve": "^15.0.2",
     "core-js": "^3.8.3",
-    "custom-ui-plus": "^0.1.2",
+    "custom-ui-plus": "^0.1.8",
     "element-plus": "^2.3.5",
     "rollup": "^2.62.0",
     "rollup-plugin-babel": "^4.4.0",

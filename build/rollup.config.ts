@@ -55,7 +55,6 @@ export default [
       })
     ],
     external(id) {
-      console.log(id)
       return deps.some(k => new RegExp('^' + k).test(id))
     }
   }
