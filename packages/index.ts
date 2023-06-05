@@ -1,9 +1,13 @@
 import { App } from 'vue'
 import MyButton from './components/MyButton/index'
+import Tabs from "./components/TestRelation/Tabs.vue"
+import Tab from "./components/TestRelation/Tab.vue"
 
 // 所有组件列表
 const components = [
-  MyButton
+  MyButton,
+  Tabs,
+  Tab
 ]
 
 // 定义 install 方法， App 作为参数
@@ -21,5 +25,7 @@ export default {
 declare module "@vue/runtime-core" {
   export interface GlobalComponents {
     MyButton: typeof MyButton
+    Tab: typeof Tab
+    Tabs: typeof Tabs
   }
 }
