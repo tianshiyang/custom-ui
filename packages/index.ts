@@ -1,11 +1,16 @@
 import { App } from 'vue'
-import MyButton from './components/MyButton/index'
+import MyButtonCom from './components/MyButton/index'
 import Tabs from "./components/TestRelation/Tabs.vue"
 import Tab from "./components/TestRelation/Tab.vue"
 
+import { withInstall } from "./tools/utils/withInstall"
+export const MyButton = withInstall(MyButtonCom);
+
+
+
 // 所有组件列表
 const components = [
-  MyButton,
+  MyButtonCom,
   Tabs,
   Tab
 ]
